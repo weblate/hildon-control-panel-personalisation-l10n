@@ -1,0 +1,33 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: n900 extra translations\n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/n900-extra-translations/issues/list\n"
+"POT-Creation-Date: 2008.10.20 11:51+0300\n"
+"PO-Revision-Date: 2010-11-30 11:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: my\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "pers_bd_button_apply"
+msgstr "Apply"
+
+msgid "pers_bd_button_close"
+msgstr "Close"
+
+msgid "pers_fi_current"
+msgstr "(current)"
+
+msgid "pers_fi_label"
+msgstr "Select a theme"
+
+msgid "pers_ib_banner"
+msgstr "Theme already in use"
+
+msgid "pers_ti_personalization"
+msgstr "Themes"

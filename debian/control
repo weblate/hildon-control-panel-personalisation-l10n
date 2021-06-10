@@ -9,18 +9,87 @@ Package: hildon-control-panel-personalisation-l10n-mr0
 Section: misc
 Architecture: all
 Provides: hildon-control-panel-personalisation-l10n-mr
-Depends: hildon-control-panel-personalisation-l10n-ruru, hildon-control-panel-personalisation-l10n-frfr, hildon-control-panel-personalisation-l10n-frca, hildon-control-panel-personalisation-l10n-dadk, hildon-control-panel-personalisation-l10n-itit, hildon-control-panel-personalisation-l10n-svse, hildon-control-panel-personalisation-l10n-nono, hildon-control-panel-personalisation-l10n-fifi, hildon-control-panel-personalisation-l10n-nlnl, hildon-control-panel-personalisation-l10n-enus, hildon-control-panel-personalisation-l10n-dede, hildon-control-panel-personalisation-l10n-esmx, hildon-control-panel-personalisation-l10n-eses, hildon-control-panel-personalisation-l10n-cscz, hildon-control-panel-personalisation-l10n-ptpt, hildon-control-panel-personalisation-l10n-engb, hildon-control-panel-personalisation-l10n-plpl
-Description: hildon-control-panel-personalisation marketing release package
- This is a metapackage for hildon-control-panel-personalisation to pull all the l10n packages.
- Application developers of hildon-control-panel-personalisation should depend on
+Depends:
+ hildon-control-panel-personalisation-l10n-zhtw,
+ hildon-control-panel-personalisation-l10n-zhhk,
+ hildon-control-panel-personalisation-l10n-zhcn,
+ hildon-control-panel-personalisation-l10n-ukua,
+ hildon-control-panel-personalisation-l10n-trtr,
+ hildon-control-panel-personalisation-l10n-svse,
+ hildon-control-panel-personalisation-l10n-sksk,
+ hildon-control-panel-personalisation-l10n-ruru,
+ hildon-control-panel-personalisation-l10n-roro,
+ hildon-control-panel-personalisation-l10n-ptpt,
+ hildon-control-panel-personalisation-l10n-plpl,
+ hildon-control-panel-personalisation-l10n-pa,
+ hildon-control-panel-personalisation-l10n-nono,
+ hildon-control-panel-personalisation-l10n-nlnl,
+ hildon-control-panel-personalisation-l10n-mymm,
+ hildon-control-panel-personalisation-l10n-lvlv,
+ hildon-control-panel-personalisation-l10n-ko,
+ hildon-control-panel-personalisation-l10n-km,
+ hildon-control-panel-personalisation-l10n-itit,
+ hildon-control-panel-personalisation-l10n-huhu,
+ hildon-control-panel-personalisation-l10n-heil,
+ hildon-control-panel-personalisation-l10n-frfr,
+ hildon-control-panel-personalisation-l10n-frca,
+ hildon-control-panel-personalisation-l10n-fifi,
+ hildon-control-panel-personalisation-l10n-fa,
+ hildon-control-panel-personalisation-l10n-etee,
+ hildon-control-panel-personalisation-l10n-esmx,
+ hildon-control-panel-personalisation-l10n-eses,
+ hildon-control-panel-personalisation-l10n-enus,
+ hildon-control-panel-personalisation-l10n-engb,
+ hildon-control-panel-personalisation-l10n-elgr,
+ hildon-control-panel-personalisation-l10n-dede,
+ hildon-control-panel-personalisation-l10n-dadk,
+ hildon-control-panel-personalisation-l10n-cy,
+ hildon-control-panel-personalisation-l10n-cscz,
+ hildon-control-panel-personalisation-l10n-caes,
+ hildon-control-panel-personalisation-l10n-bgbg,
+ hildon-control-panel-personalisation-l10n-beby,
+ hildon-control-panel-personalisation-l10n-ar,
+Description: hildon-control-panel-personalisation-l10n marketing release package
+ This is a metapackage for hildon-control-panel-personalisation-l10n to pull all the l10n packages.
+ Application developers of hildon-control-panel-personalisation-l10n should depend on
  "hildon-control-panel-personalisation-l10n-mr0 | hildon-control-panel-personalisation-l10n-mr"
  to ensure correct locales are getting installed.
+
+Package: hildon-control-panel-personalisation-l10n-ar
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (ar)
+ Language files for ar hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-beby
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (be_BY)
+ Language files for be_BY hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-bgbg
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (bg_BG)
+ Language files for bg_BG hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-caes
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (ca_ES)
+ Language files for ca_ES hildon-control-panel-personalisation.
 
 Package: hildon-control-panel-personalisation-l10n-cscz
 Section: misc
 Architecture: all
 Description: language files for hildon-control-panel-personalisation (cs_CZ)
  Language files for cs_CZ hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-cy
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (cy)
+ Language files for cy hildon-control-panel-personalisation.
 
 Package: hildon-control-panel-personalisation-l10n-dadk
 Section: misc
@@ -33,6 +102,12 @@ Section: misc
 Architecture: all
 Description: language files for hildon-control-panel-personalisation (de_DE)
  Language files for de_DE hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-elgr
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (el_GR)
+ Language files for el_GR hildon-control-panel-personalisation.
 
 Package: hildon-control-panel-personalisation-l10n-engb
 Section: misc
@@ -58,6 +133,18 @@ Architecture: all
 Description: language files for hildon-control-panel-personalisation (es_MX)
  Language files for es_MX hildon-control-panel-personalisation.
 
+Package: hildon-control-panel-personalisation-l10n-etee
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (et_EE)
+ Language files for et_EE hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-fa
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (fa)
+ Language files for fa hildon-control-panel-personalisation.
+
 Package: hildon-control-panel-personalisation-l10n-fifi
 Section: misc
 Architecture: all
@@ -76,11 +163,47 @@ Architecture: all
 Description: language files for hildon-control-panel-personalisation (fr_FR)
  Language files for fr_FR hildon-control-panel-personalisation.
 
+Package: hildon-control-panel-personalisation-l10n-heil
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (he_IL)
+ Language files for he_IL hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-huhu
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (hu_HU)
+ Language files for hu_HU hildon-control-panel-personalisation.
+
 Package: hildon-control-panel-personalisation-l10n-itit
 Section: misc
 Architecture: all
 Description: language files for hildon-control-panel-personalisation (it_IT)
  Language files for it_IT hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-km
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (km)
+ Language files for km hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-ko
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (ko)
+ Language files for ko hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-lvlv
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (lv_LV)
+ Language files for lv_LV hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-mymm
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (my_MM)
+ Language files for my_MM hildon-control-panel-personalisation.
 
 Package: hildon-control-panel-personalisation-l10n-nlnl
 Section: misc
@@ -94,6 +217,12 @@ Architecture: all
 Description: language files for hildon-control-panel-personalisation (no_NO)
  Language files for no_NO hildon-control-panel-personalisation.
 
+Package: hildon-control-panel-personalisation-l10n-pa
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (pa)
+ Language files for pa hildon-control-panel-personalisation.
+
 Package: hildon-control-panel-personalisation-l10n-plpl
 Section: misc
 Architecture: all
@@ -106,14 +235,56 @@ Architecture: all
 Description: language files for hildon-control-panel-personalisation (pt_PT)
  Language files for pt_PT hildon-control-panel-personalisation.
 
+Package: hildon-control-panel-personalisation-l10n-roro
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (ro_RO)
+ Language files for ro_RO hildon-control-panel-personalisation.
+
 Package: hildon-control-panel-personalisation-l10n-ruru
 Section: misc
 Architecture: all
 Description: language files for hildon-control-panel-personalisation (ru_RU)
  Language files for ru_RU hildon-control-panel-personalisation.
 
+Package: hildon-control-panel-personalisation-l10n-sksk
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (sk_SK)
+ Language files for sk_SK hildon-control-panel-personalisation.
+
 Package: hildon-control-panel-personalisation-l10n-svse
 Section: misc
 Architecture: all
 Description: language files for hildon-control-panel-personalisation (sv_SE)
  Language files for sv_SE hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-trtr
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (tr_TR)
+ Language files for tr_TR hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-ukua
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (uk_UA)
+ Language files for uk_UA hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-zhcn
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (zh_CN)
+ Language files for zh_CN hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-zhhk
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (zh_HK)
+ Language files for zh_HK hildon-control-panel-personalisation.
+
+Package: hildon-control-panel-personalisation-l10n-zhtw
+Section: misc
+Architecture: all
+Description: language files for hildon-control-panel-personalisation (zh_TW)
+ Language files for zh_TW hildon-control-panel-personalisation.

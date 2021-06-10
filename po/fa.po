@@ -1,0 +1,34 @@
+# 
+# Translators:
+# jeco <maemosoft@yahoo.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: n900 extra translations\n"
+"Report-Msgid-Bugs-To: http://code.google.com/p/n900-extra-translations/issues/list\n"
+"POT-Creation-Date: 2008.10.20 11:51+0300\n"
+"PO-Revision-Date: 2011-11-06 15:04+0000\n"
+"Last-Translator: jeco <maemosoft@yahoo.com>\n"
+"Language-Team: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+msgid "pers_bd_button_apply"
+msgstr " اعمال"
+
+msgid "pers_bd_button_close"
+msgstr "بستن"
+
+msgid "pers_fi_current"
+msgstr "(کنونی)"
+
+msgid "pers_fi_label"
+msgstr "انتخاب تم"
+
+msgid "pers_ib_banner"
+msgstr "تم در حال حاضر استفاده می‌شود"
+
+msgid "pers_ti_personalization"
+msgstr "تم‌ها"
